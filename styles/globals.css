@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  min-height: 100%;
 }
 
 a {
@@ -22,5 +24,207 @@ a {
   body {
     color: white;
     background: black;
+    
+
   }
+}
+
+/****************************/
+
+.container {
+  padding: 0 1rem;
+}
+.mega-container {
+  min-height: 75vh;
+  background-color: #EEF1FF;
+}
+.navbar {
+  display: flex;
+  padding: 1.2rem!important;
+  align-items: center;
+  border-bottom: 2px dashed #0E185F;
+  color: #0E185F;
+}
+.navbar-title {
+  margin: 0;
+  font-family: 'Silkscreen', cursive;
+  font-size: 2rem;
+}
+.p-fileupload .p-fileupload-buttonbar{
+  border: none !important;
+  background: #EEF1FF !important;
+}
+.p-fileupload .p-fileupload-content {
+  border: none !important;
+  padding: 1rem !important;
+  background: #EEF1FF !important;
+
+}
+.p-fileupload .p-fileupload-row > div {
+  padding: 0.5rem !important;
+}
+.p-progressbar {
+  background: #0E185F !important;
+  height: 0.085rem!important;
+}
+.p-fileupload-row>div {
+  width: auto!important;
+}
+.upload-container {
+  text-align: center;
+  margin: 1.5rem 0 0;
+}
+.ui-upload-button {
+  font-weight: 600!important;
+  background-color: #E8FFC2!important;
+  color: #0e185f !important;
+  border: 2px solid #0E185F !important;
+}
+.ui-upload-button:hover {
+  background-color: #E8FFC2!important;
+  box-shadow: -5px 5px  #0E185F
+}
+.upload-button {
+  background-color: #E8FFC2 !important;
+  margin: 0 6rem;
+  font-weight: 600!important;
+
+  color: #0e185f !important;
+  border: 2px solid #0E185F !important;
+}
+.upload-button:hover {
+   background-color: #E8FFC2!important;
+  box-shadow: -5px 5px  #0E185F
+}
+.connect-button {
+  margin-left: auto;
+  font-weight: 600!important;
+  border: none!important;
+  border: 2px solid #0E185F !important;
+  background-color: #E8FFC2!important;
+  color: #0E185F!important;
+}
+.connect-button:hover {
+  background-color: #E8FFC2!important;
+  box-shadow: -5px 5px  #0E185F
+}
+.main {
+  color: #0E185F;
+  padding: 2.5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #EEF1FF;
+  min-height: 35vh;
+}
+.dashboard {
+  padding-bottom: 2.5rem;
+  min-height: 40vh;
+  text-align: center;
+  color: #0E185F;
+  border-top: 2px dashed #0E185F;
+  background-color: #E8FFC2;
+}
+.file-section-title {
+  margin: 2rem auto;
+}
+.files-section {
+  display: flex!important;
+  align-items: flex-start!important;
+  justify-content: center;
+  align-content: flex-start!important;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding: 0 1.9rem;
+  
+}
+.green-button {
+  background-color: #E8FFC2!important;
+  box-shadow: -5px 5px  #0E185F;
+
+}
+.card-header {
+  background-color: white!important;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid #0E185F !important;
+  font-weight: 600;
+  color: #0E185F !important;
+  background-color: #EEF1FF!important;
+}
+.fileCard {
+  max-width: 18rem;
+  height: 7rem!important;
+  text-align: center;
+  color: #0E185F;
+  border: 2px solid #0E185F!important;
+  background-color: #EEF1FF !important;
+  box-shadow: -5px 5px  #0E185F
+}
+.fileCard a {
+  color:  #0E185F!important;
+  text-decoration: none;
+}
+.p-button-icon-only {
+  background-color: #E8FFC2 !important;
+  font-weight: 600!important;
+
+  color: #0e185f !important;
+  border: 2px solid #0E185F !important;
+}
+
+.p-button-icon-only:hover {
+  background-color: #E8FFC2!important;
+  box-shadow: -5px 5px  #0E185F
+}
+.list-group-item:hover {
+  color: #2FA4FF !important;
+}
+.list-group-item, .list-group {
+  color: #0E185F !;
+  display: flex!important;
+  align-items: center!important;
+  justify-content: center!important;
+  background-color: #EEF1FF !important;
+  border: none!important;
+}
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  
+  justify-content: center;
+  align-items: center;
+  background-color: #0E185F;
+  color: #E8FFC2;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.title {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 0.8rem 0;
+  font-size: 1.15rem;
+}
+
+.logo {
+  margin: 0 0.5rem;
+  width: 2.8rem;
+  height: 2.8rem;
 }
