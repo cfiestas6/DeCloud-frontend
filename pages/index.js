@@ -218,7 +218,7 @@ export default function Home() {
             <h3 className="file-section-title">My files:</h3>
             {filesLoading || files.length <= 0 ? <p>Loading...</p> : <div className="files-section">
             {files.map((file) => {
-              return <FileCard fileName={file.name} fileCID={file.url} />
+              return <FileCard key={file.id} fileName={file.name} fileCID={file.url} />
             })}
             </div>}
         </div>}
